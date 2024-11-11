@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    display: grid;
+    background-color: black;
+    color: whitesmoke;
+}
+
+.menu{
+  display:flex;
+  width: 100%;
+  min-height: 5%; /*--*/
+  flex-wrap: wrap;
+  justify-content: space-between;
+  backdrop-filter: blur(30px);
+  position: fixed;
+}
+.menu ul{
+    display:flex;
+    align-items: right;
+    justify-content: center;
+    text-align: right;
+    flex-wrap: wrap;
+    margin-top: 25px;
+    margin-right: 40px;
+}
+.menu li{
+    display: flex;
+    flex-wrap: wrap;
+    display: inline-block;
+    margin-right:35px;
+      
+}
+.menu img{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    height: 60px;
+    margin-top: 15px;
+    margin-left: 40px;
+    
+}
+.menu a{
+    display: flex;
+    flex-wrap: wrap;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight:450;
+}
+span{
+    color: hwb(203 0% 0%);
+}
+
+.section0{
+    text-align: center;
+    align-items: center;
+    padding-top: 300px;
+    padding-bottom: 50px;
+    background-image: url(/Assets/section0.png);
+    width: 700px;
+    height: 700px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    background-position: center;
+    background-size: cover;
+}
+.section0 h1{
+    font-size: 90px;
+    margin-top: 130px;
+    font-weight: bold;
+    background: linear-gradient(rgb(108, 108, 112), whitesmoke); -webkit-background-clip: text;
+  color: transparent;
+}
+.section0 h2{
+    font-weight:400;
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.section0 p{
+    font-weight: 400;
+    font-size: 23px;
+    margin-top: 30px;
+    color:rgb(108, 108, 112);
+    font-size: 30px;
+}
+
+
+.precio_comprar{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 25px;
+}
+.precio_comprar ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+}
+.precio_comprar li{
+    list-style-type: none;
+    padding: 20px;
+    display: inline-block;
+    height: 80px;
+}
+.precio_comprar p{
+    font-size: 25px;
+    margin-top: 0px;
+}
+
+.precio_comprar a{
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.section1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 130px;
+}
+.section1 ul{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 1000px;
+}
+.section1 li{
+    list-style-type: none;
+    padding: 10px;
+    display: flex;
+    background-color: rgb(21, 21, 24);
+    color: rgb(108, 108, 112);
+    border-radius: 5px;
+    margin-left: 35px;
+    flex-wrap: wrap;
+}
+
+.section2{
+    margin-top: 100px;
+    margin-bottom: 110px;
+    text-align: center;
+    align-items: center;
+}
+.section2_frase1 h2{
+        margin-bottom: 10px;
+        font-size: 65px;
+        background: linear-gradient(rgb(108, 108, 112), whitesmoke); -webkit-background-clip: text;
+  color: transparent;
+}
+.section2_frase1 p{
+    margin-left: auto;
+    margin-right: auto;
+    width: 900px;
+    margin-top: 35px;
+    font-size: 55px;
+    color: rgb(108, 108, 112);
+    background: linear-gradient(rgb(108, 108, 112), whitesmoke); -webkit-background-clip: text;
+  color: transparent;
+}
+
+.box_principal{
+    display: grid;grid-template-columns: repeat(2,2fr);
+    height: 600px;
+    gap: 80px;
+    margin-left: 45px;
+    margin-right: 45px;
+    margin-bottom: 45px;
+}
+.box_principal_img{
+    display: flex;
+    margin-right: 25px;
+    margin-left: 100px;
+    height: 550px;
+} 
+.box1 {
+    text-align:left;
+    margin-top: 120px;
+    width: 400px;
+    height: 450px ;
+    font-size: 30px;
+}
+.box1 p{
+    display: grid;
+    margin-left:65px;
+    width: 270px;
+}
+
+
+
+
+
+.section_conexion{
+    margin-bottom: 45px;
+}
+.section_conexion h2{
+    text-align: center;
+    font-size: 65px;
+    margin-left: 65px;
+    margin-right: 65px;
+    background: linear-gradient(rgb(108, 108, 112), whitesmoke); -webkit-background-clip: text;
+  color: transparent;
+}
+.imagenes{
+    display: flex;
+    margin-top: 55px;
+    display: flex;
+    gap: 55px;
+    height: 750px;
+    width: 750px;
+    justify-content: center;
+}
+.img1{
+    display: flex;
+    border: solid 1px green;
+    height: 60%;
+    width: 40%;
+}
+.img2{
+    display: flex;
+    border: solid 1px blue;
+    height: 60%;
+    width: 40%;
+}
+
